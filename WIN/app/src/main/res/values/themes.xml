@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WIN" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#4F46E5</item>
+        <item name="colorPrimaryVariant">#4338CA</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#FBBF24</item>
+        <item name="colorSecondaryVariant">#F59E0B</item>
+        <item name="colorOnSecondary">#000000</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">#FFFFFF</item>
+        <!-- Customize your theme here -->
+    </style>
+
+    <style name="Theme.WINSplash" parent="Theme.WIN">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
